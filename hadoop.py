@@ -32,9 +32,9 @@ while True:
 		
 		elif choice==2:
 			ser=input("Do you want to start datanode or namenode: (D/N)\t")
-			if ser==N:
+			if ser=="N":
 				os.system("hadoop-deamon.sh start namenode")
-			elif ser==D:
+			elif ser=="D":
 				os.system("hadoop-daemon.sh start datanode")
 			else:
 				print("Invalid input")
