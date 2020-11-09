@@ -37,11 +37,9 @@ while i<=n:
 
 			Press 4: To use APACHE HTTPD SERVICE
 			
-			Press 5: To use DOCKER
-			
-			Press 6: To reboot 
+			Press 5: To reboot 
 
-			Press 7:To exit
+			Press 6:To exit
 			\n\n""")
 
 			choice=int(input("Enter your choice:\t"))
@@ -55,7 +53,7 @@ while i<=n:
 					importlib.import_module("hadoop")
 
 			elif choice==4:
-					importlib.import_module("")
+					importlib.import_module("httpd")
 		
 			elif choice==5:
 					os.system("reboot")
