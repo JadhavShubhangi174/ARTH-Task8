@@ -3,7 +3,7 @@ import os
 import getpass
 
 os.system("tput setaf 3")
-print("\t\t\t\t-----------------------------------------WELCOME-----------------------------------------")
+print("\t\t------------------WELCOME-------------------")
 os.system("tput setaf 6")
 
 n=3
